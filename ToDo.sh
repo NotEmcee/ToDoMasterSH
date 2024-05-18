@@ -62,7 +62,7 @@ todo usage examples:
     todo delete 2 3             # delete the date of the second task
     todo list                   # It gives a list of all the todo tasks
     todo list 2                 # It gives the information about the second task
-    todo list date 25 03 2024   # It gives a task with the given date (dd-mm-yy)
+    todo list date 25-03-2024   # It gives a task with the given date (dd-mm-yy)
     todo list day 25            # It gives a task with the given day
     todo list done              # It gives a list of all done todo tasks
     todo list notdone           # It gives a list of all not done todo tasks

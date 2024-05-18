@@ -45,6 +45,10 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
 
 
 ```bash
+ # Show this help output        
+./todo.sh help
+ # Show the help example output            
+./todo.sh help ex  
 # It gives a list of todo tasks
 ./todo.sh
  # Create a new task
@@ -81,10 +85,7 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
 ./todo.sh done n
  # It gives the tasks with the given title n             
 ./todo.sh search n
- # Show this help output        
-./todo.sh help
- # Show the help example output            
-./todo.sh help ex              
+            
 ```
 
 ## 💻 Installation :

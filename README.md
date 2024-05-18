@@ -22,29 +22,3 @@ Features ✨
 
 
 
-Installation
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/ToDoMasterSH.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd ToDoMasterSH
-Make the script executable:
-
-bash
-Copy code
-chmod +x todolist.sh
-Usage
-Run the script:
-
-bash
-Copy code
-./todolist.sh
-Follow the on-screen instructions to manage your to-do list.
-
-Contributing
-

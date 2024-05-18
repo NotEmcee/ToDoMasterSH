@@ -87,7 +87,7 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
 ./todo.sh help ex              
 ```
 
-💻 Installation :
+## 💻 Installation :
 
 Before you can execute the script you need to install Figlet :
 ```bach

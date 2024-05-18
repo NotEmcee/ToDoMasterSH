@@ -9,27 +9,16 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
 
 
 <!-- TABLE OF CONTENTS -->
+<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#-installation-">Installation</a></li>
-      </ul>
-    </li>
+    <li><a href="#🚀-features-🚀">🚀 Features 🚀</a></li>
+    <li><a href="#-installation-">💻 Installation</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+
 
 ## 🚀 Features 🚀 <br/>
 ✅ **Create a Task**  <br/>
@@ -38,7 +27,18 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
 📄 **Show information about a Task** <br/>
 📅 **List tasks of a given day** <br/>
 🔍 **Search for a task by title** <br/>
-✔️ **Mark a Task as Done** <br/>
+✔️ **Mark a Task as Done** <br/><br/>
+
+
+## 💻 Installation :
+
+Before you can execute the script you need to install Figlet :
+```bach
+sudo apt-get install figlet
+```
+
+<p align="right">[<a href="#readme-top">back to top</a>]</p>
+
 
 
 ## Usage
@@ -88,12 +88,7 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
             
 ```
 
-## 💻 Installation :
 
-Before you can execute the script you need to install Figlet :
-```bach
-sudo apt-get install figlet
-```
 
 <p align="right">[<a href="#readme-top">back to top</a>]</p>
 

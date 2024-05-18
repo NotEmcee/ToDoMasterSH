@@ -38,7 +38,7 @@ Options:
     todo.sh list notdone           # It gives a list of all not done todo tasks
     todo.sh done                   # It gives a list of the not done listes
     todo.sh done n                 # Mark a task as done by its ID
-    todo.sh search n               # It gives a the tasks with the given title n
+    todo.sh search n               # It gives the tasks with the given title n
     todo.sh help                   # Show this help output
     todo.sh help ex                # Show the help example output
 
@@ -68,7 +68,7 @@ todo usage examples:
     todo.sh list notdone           # It gives a list of all not done todo tasks
     todo.sh done                   # It gives a list of the not done listes
     todo.sh done 2                 # Mark the second task as done
-    todo.sh search ant             # It gives a the tasks with the given title
+    todo.sh search ant             # It gives the tasks with the given title
     todo.sh help                   # Show the help output
     todo.sh help ex                # Show this help example output
     

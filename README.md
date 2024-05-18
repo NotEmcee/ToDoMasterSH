@@ -32,7 +32,7 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
 
 # List all tasks
 ./todo list
-
+```
 
 <a href="#readme-top">back to top</a>)</p>
 

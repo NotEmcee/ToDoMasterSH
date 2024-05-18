@@ -95,7 +95,7 @@ create_task() {
         times="1"
     fi
     
-    figlet "           ToDo"
+    figlet "           ToDo Create"
     echo "Create a task :"
 
     for ((i = 1; i <= times; i++)); do
@@ -133,6 +133,7 @@ create_task() {
 }
 
 update_task() {
+figlet "           ToDo Update"
     if [ -z "$2" ]; then
         echo "Available tasks for update:"
         cat -n "$file"
@@ -192,6 +193,7 @@ update_task() {
 }
 
 delete_task() {
+figlet "           ToDo Delete"
     if [ -z "$2" ]; then
         echo "Available tasks for deletion:"
         cat -n "$file"
@@ -213,6 +215,7 @@ delete_task() {
 }
 
 list_task() {
+figlet "           ToDo List"
     printf "%-10s | %-20s | %-30s | %-12s | %-12s | %-8s\n" "ID" "Title" "Description" "Date" "Creation Date" "Status"
     while IFS='|' read -r id title description date creation_date status; do
         printf "%-10s | %-20s | %-30s | %-12s | %-12s | %-8s\n" "$id" "$title" "$description" "$date" "$creation_date" "$status"
@@ -220,6 +223,7 @@ list_task() {
 }
 
 list_tasks_date() {
+figlet "           ToDo List Date"
     if [ -z "$3" ]; then
         echo "Please provide a date in the format dd-mm-yyyy."
     else
@@ -235,6 +239,7 @@ list_tasks_date() {
 }
 
 list_tasks_day() {
+figlet "           ToDo List Day"
     if [ -z "$3" ]; then
         echo "Please provide a day."
     else
@@ -250,6 +255,7 @@ list_tasks_day() {
 }
 
 search_task_by_title() {
+figlet "           ToDo Search Title"
     if [ -z "$2" ]; then
         echo "Please provide a title to search for."
     else
@@ -277,6 +283,7 @@ search_task_by_title() {
 }
 
 mark_task_done() {
+figlet "           ToDo Mark Done"
     if [ -z "$2" ]; then
     list_task_notdone
     else
@@ -295,6 +302,7 @@ mark_task_done() {
 }
 
 list_task_done() {
+figlet "           ToDo List Done"
     printf "%-10s | %-20s | %-30s | %-12s | %-12s | %-8s\n" "ID" "Title" "Description" "Date" "Creation Date" "Status"
     while IFS='|' read -r id title description date creation_date status; do
         if [ "$status" == "done" ]; then
@@ -303,6 +311,7 @@ list_task_done() {
     done < "$file"
 }
 list_task_notdone() {
+figlet "           ToDo List Not Done"
     printf "%-10s | %-20s | %-30s | %-12s | %-12s | %-8s\n" "ID" "Title" "Description" "Date" "Creation Date" "Status"
     while IFS='|' read -r id title description date creation_date status; do
         if [ "$status" == "notdone" ]; then

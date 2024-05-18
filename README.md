@@ -45,23 +45,53 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
 
 
 ```bash
-# Display help
-./todo.sh help
-
-# Display a detailed help with some usage examples
-./todo.sh helpex
-
-# Create a new task
+# It gives a list of todo tasks
+./todo.sh
+ # Create a new task
 ./todo.sh create
-
-# Update a task
+# Create a n number of new tasks               
+./todo.sh create n
+# It gives the list of Tasks That can be updated             
 ./todo.sh update
-
-# Delete a task
+# Update the information given in the ID numbered n                 
+./todo.sh update n
+# Update the information given in the ID n and in a given type m(1-3)          
+./todo.sh update n m
+# It gives the list of Tasks That can be deleted          
 ./todo.sh delete
+# delete the task that in the ID numbered n               
+./todo.sh delete n
+# delete the information given in the ID n and in a given type m            
+./todo.sh delete n m
+# It gives a list of all the todo tasks            
+./todo.sh list
+# It gives a task with the id n from the list of todo tasks               
+./todo.sh list n
+# It gives a task with the given date n             
+./todo.sh list date n
+# It gives a task with the given day n       
+./todo.sh list day n
+ # It gives a list of all done todo tasks
+./todo.sh list done
+# It gives a list of all not done todo tasks
+./todo.sh list notdone
+ # It gives a list of the not done listes          
+./todo.sh done
+ # Mark a task as done by its ID                 
+./todo.sh done n
+ # It gives the tasks with the given title n             
+./todo.sh search n
+ # Show this help output        
+./todo.sh help
+ # Show the help example output            
+./todo.sh help ex              
+```
 
-# List all tasks
-./todo list
+💻 Installation :
+
+Before you can execute the script you need to install Figlet :
+```bach
+sudo apt-get install figlet
 ```
 
 <p align="right">[<a href="#readme-top">back to top</a>]</p>

@@ -12,8 +12,6 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
 
 
 
-[!NOTE]
-Useful information that users should know, even when skimming content.
 
 
 

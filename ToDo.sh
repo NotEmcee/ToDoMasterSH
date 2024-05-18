@@ -21,56 +21,56 @@ Usage: todo [OPTION] [ITEM]
 todo manages todo lists in an easy to use way.
 
 Options:
-    todo                        # It gives a list of todo tasks
-    todo create                 # Create a new task
-    todo create n               # Create a n number of new tasks
-    todo update                 # It gives the list of Tasks That can be updated
-    todo update n               # Update the information given in the ID numbered n
-    todo update n m             # Update the information given in the ID n and in a given type m(1-3)
-    todo delete                 # It gives the list of Tasks That can be deleted
-    todo delete n               # delete the task that in the ID numbered n
-    todo delete n m             # delete the information given in the ID n and in a given type m
-    todo list                   # It gives a list of all the todo tasks
-    todo list n                 # It gives a task with the id n from the list of todo tasks
-    todo list date n            # It gives a task with the given date n
-    todo list day n             # It gives a task with the given day n
-    todo list done              # It gives a list of all done todo tasks
-    todo list notdone           # It gives a list of all not done todo tasks
-    todo done                   # It gives a list of the not done listes
-    todo done n                 # Mark a task as done by its ID
-    todo search n               # It gives a the tasks with the given title n
-    todo help                   # Show this help output
-    todo help ex                # Show the help example output
+    todo.sh                        # It gives a list of todo tasks
+    todo.sh create                 # Create a new task
+    todo.sh create n               # Create a n number of new tasks
+    todo.sh update                 # It gives the list of Tasks That can be updated
+    todo.sh update n               # Update the information given in the ID numbered n
+    todo.sh update n m             # Update the information given in the ID n and in a given type m(1-3)
+    todo.sh delete                 # It gives the list of Tasks That can be deleted
+    todo.sh delete n               # delete the task that in the ID numbered n
+    todo.sh delete n m             # delete the information given in the ID n and in a given type m
+    todo.sh list                   # It gives a list of all the todo tasks
+    todo.sh list n                 # It gives a task with the id n from the list of todo tasks
+    todo.sh list date n            # It gives a task with the given date n
+    todo.sh list day n             # It gives a task with the given day n
+    todo.sh list done              # It gives a list of all done todo tasks
+    todo.sh list notdone           # It gives a list of all not done todo tasks
+    todo.sh done                   # It gives a list of the not done listes
+    todo.sh done n                 # Mark a task as done by its ID
+    todo.sh search n               # It gives a the tasks with the given title n
+    todo.sh help                   # Show this help output
+    todo.sh help ex                # Show the help example output
 
-See 'todo help ex' for usage examples.
+See 'todo.sh help ex' for usage examples.
 "
 }
 
 helpex(){
     printf "
 todo usage examples:
-    todo                        # Lists all items in all todo lists
-    todo create                 # Create a new task
-    todo create 2               # Create 2 new tasks task
-    todo update                 # It gives the list of Tasks That can be updated
-    todo update 2               # Update the information of the second task
-    todo update 2 1             # Update the title of the second task
-    todo update 2 2             # Update the description of the second task
-    todo update 2 3             # Update the date of the second task
-    todo delete                 # It gives the list of Tasks That can be deleted
-    todo delete 2               # delete the second task
-    todo delete 2 3             # delete the date of the second task
-    todo list                   # It gives a list of all the todo tasks
-    todo list 2                 # It gives the information about the second task
-    todo list date 25-03-2024   # It gives a task with the given date (dd-mm-yy)
-    todo list day 25            # It gives a task with the given day
-    todo list done              # It gives a list of all done todo tasks
-    todo list notdone           # It gives a list of all not done todo tasks
-    todo done                   # It gives a list of the not done listes
-    todo done 2                 # Mark the second task as done
-    todo search ant             # It gives a the tasks with the given title
-    todo help                   # Show the help output
-    todo help ex                # Show this help example output
+    todo.sh                        # Lists all items in all todo lists
+    todo.sh create                 # Create a new task
+    todo.sh create 2               # Create 2 new tasks task
+    todo.sh update                 # It gives the list of Tasks That can be updated
+    todo.sh update 2               # Update the information of the second task
+    todo.sh update 2 1             # Update the title of the second task
+    todo.sh update 2 2             # Update the description of the second task
+    todo.sh update 2 3             # Update the date of the second task
+    todo.sh delete                 # It gives the list of Tasks That can be deleted
+    todo.sh delete 2               # delete the second task
+    todo.sh delete 2 3             # delete the date of the second task
+    todo.sh list                   # It gives a list of all the todo tasks
+    todo.sh list 2                 # It gives the information about the second task
+    todo.sh list date 25-03-2024   # It gives a task with the given date (dd-mm-yy)
+    todo.sh list day 25            # It gives a task with the given day
+    todo.sh list done              # It gives a list of all done todo tasks
+    todo.sh list notdone           # It gives a list of all not done todo tasks
+    todo.sh done                   # It gives a list of the not done listes
+    todo.sh done 2                 # Mark the second task as done
+    todo.sh search ant             # It gives a the tasks with the given title
+    todo.sh help                   # Show the help output
+    todo.sh help ex                # Show this help example output
     
 "
 }

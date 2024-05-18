@@ -34,6 +34,6 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
 ./todo list
 ```
 
-<a href="#readme-top">back to top</a>)</p>
+<p align="right">[<a href="#readme-top">back to top</a>]</p>
 
 

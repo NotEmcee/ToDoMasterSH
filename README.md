@@ -20,11 +20,10 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
 <details>
   <summary><h2> Table of Contents </h2></summary>
       <a href="#about-the-project">About The Project</a><br> 
-      <a href="#features">🚀 Features 🚀</a> <br>
+      <a href="#🚀 Features 🚀">🚀 Features 🚀</a> <br>
       <a href="#prerequisites">Prerequisites</a> <br>
-      <a href="#installation">💻 Installation</a> <br>
+      <a href="#💻 Installation>💻 Installation</a> <br>
       <a href="#usage">Usage</a> <br>
-      <a href="#roadmap">Roadmap</a> <br>    
 </details>
 
 </div>

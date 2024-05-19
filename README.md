@@ -1,23 +1,32 @@
-# ToDoMasterSH
+# ToDoMasterSH 
 ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily create, update, delete, and show task details. List tasks by day, search by title, and mark tasks as done are some of the script's features. Perfect for developers and system admins who prefer working in the terminal directly. 
 
 <div align="center">
-  
-![generate a logo for the app logo of a ToDoMasterSH which is a todolist manager project i made (3)_prev_ui](https://github.com/NotEmcee/ToDoMasterSH/assets/161209088/b0e7e5da-cf96-401b-b10b-f62f78d3d030)
+
+[![Outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:fadi.bahtat@uir.ac.ma) 
+[![Outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:saad.benmoussa@uir.ac.ma) 
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 </div>
 
+<div align="center">
+  
+![generate a logo for the app logo of a ToDoMasterSH which is a todolist manager project i made (3)_prev_ui](https://github.com/NotEmcee/ToDoMasterSH/assets/161209088/2717ff40-0ca0-4e81-89e6-c32e5bc18cbe)
+
+
+
 
 <!-- TABLE OF CONTENTS -->
-<!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#🚀-features-🚀">🚀 Features 🚀</a></li>
-    <li><a href="#-installation-">💻 Installation</a></li>
-    <li><a href="#usage">Usage</a></li>
-  </ol>
+  <summary><h2> Table of Contents </h2></summary>
+  <a href="#🚀-features-🚀">🚀 Features 🚀</a><br>
+   <a href="#-installation-">💻 Installation</a><br>
+   <a href="#usage">Usage</a><br>
+  
 </details>
+
+</div>
+
 
 
 ## 🚀 Features 🚀 <br/>

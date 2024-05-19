@@ -34,7 +34,11 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
 
 ToDoMasterSH is designed for those who love working in the terminal. It's a lightweight and efficient to-do list manager that helps you keep track of your tasks with ease.
 
-
+<div align="right">
+  
+  [🔼 **Back to top**](#ToDoMasterSH)
+  
+  </div>
 
 <h2 id="features"> 🚀 Features </h2>
 
@@ -52,11 +56,19 @@ ToDoMasterSH is designed for those who love working in the terminal. It's a ligh
   
   </div>
 
+
   <h2 id="prerequisites"> 📋 Prerequisites </h2>
 
 Before you can execute the script, you need to have the following installed:
 - `bash`
 - `figlet` (Install using the command below)
+
+<div align="right">
+  
+  [🔼 **Back to top**](#ToDoMasterSH)
+  
+  </div>
+
 
 <h2 id="installation"> 💻 Installation </h2>
 

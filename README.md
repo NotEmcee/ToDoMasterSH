@@ -37,6 +37,7 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
 📅 **List tasks of a given day** <br/>
 🔍 **Search for a task by title** <br/>
 ✔️ **Mark a Task as Done** <br/><br/>
+
 <p align="right">[<a href="#readme-top">back to top</a>]</p>
 
 ## 💻 Installation :
@@ -99,6 +100,6 @@ sudo apt-get install figlet
 
 
 
-<p align="right">[<a href="#readme-top">back to top</a>]</p>
+[🔼 Back to top](#ToDoMasterSH )
 
 

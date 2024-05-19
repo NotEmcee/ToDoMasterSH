@@ -11,30 +11,33 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
 
 <div align="center">
   
-![generate a logo for the app logo of a ToDoMasterSH which is a todolist manager project i made (3)_prev_ui](https://github.com/NotEmcee/ToDoMasterSH/assets/161209088/2717ff40-0ca0-4e81-89e6-c32e5bc18cbe)
+  ![generate a logo for the app logo of a ToDoMasterSH which is a todolist manager project i made (3)_prev_ui](https://github.com/NotEmcee/ToDoMasterSH/assets/161209088/c91da679-8f7f-4e4b-b250-13669b69d452)
 
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary><h2> Table of Contents </h2></summary>
-      <a href="#about-the-project">About The Project</a><br> 
-      <a href="#🚀 Features 🚀">🚀 Features 🚀</a> <br>
-      <a href="#prerequisites">Prerequisites</a> <br>
-      <a href="#💻 Installation>💻 Installation</a> <br>
-      <a href="#usage">Usage</a> <br>
-</details>
 
 </div>
 
-## About The Project
+<details>
+  <summary><h2> Table of Contents </h2></summary>
+  <ul>
+    <li><a href="#about-the-project">ℹ About The Project</a></li>
+    <li><a href="#features">🚀 Features</a></li>
+    <li><a href="#prerequisites">📋 Prerequisites</a></li>
+    <li><a href="#installation">💻 Installation</a></li>
+    <li><a href="#usage">📖 Usage</a></li>
+  </ul>
+</details>
+
+
+
+
+<h2 id="about-the-project"> ℹ About The Project </h2>
 
 ToDoMasterSH is designed for those who love working in the terminal. It's a lightweight and efficient to-do list manager that helps you keep track of your tasks with ease.
 
 
 
-## 🚀 Features 🚀 <br/>
+<h2 id="features"> 🚀 Features </h2>
+
 ✅ **Create a Task**  <br/>
 📝 **Update a Task**  <br/>
 ❌ **Delete a Task**  <br/>
@@ -49,13 +52,13 @@ ToDoMasterSH is designed for those who love working in the terminal. It's a ligh
   
   </div>
 
-  ## Prerequisites
+  <h2 id="prerequisites"> 📋 Prerequisites </h2>
 
 Before you can execute the script, you need to have the following installed:
 - `bash`
 - `figlet` (Install using the command below)
 
-## 💻 Installation :
+<h2 id="installation"> 💻 Installation </h2>
 
 Before you can execute the script you need to install Figlet :
 ```bach
@@ -69,7 +72,7 @@ sudo apt-get install figlet
   </div>
 
 
-## Usage
+<h2 id="usage"> 📖 Usage </h2>
 
 
 ```bash

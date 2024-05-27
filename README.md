@@ -145,11 +145,8 @@ sudo apt-get install figlet
 
 To run the ToDoMasterSH script, follow these steps:
 
-1. **Clone the Repository**: Clone the ToDoMasterSH repository to your local machine.
-    ```bash
-    git clone https://github.com/NotEmcee/ToDoMasterSH.git
-    cd ToDoMasterSH
-    ```
+1. **Add the File**: Add the ToDoMasterSH file to your local machine.
+   
 
 2. **Ensure Prerequisites are Installed**: Ensure you have `bash` and `figlet` installed. Install `figlet` if it's not already installed as shown [here](#installation):
 

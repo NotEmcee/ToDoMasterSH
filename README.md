@@ -24,6 +24,7 @@ ToDoMasterSH is an efficient to-do list manager built as a shell script. Easily 
     <li><a href="#prerequisites">📋 Prerequisites</a></li>
     <li><a href="#installation">💻 Installation</a></li>
     <li><a href="#usage">📖 Usage</a></li>
+    <li><a href="#guide">📝 Guide</a></li>
   </ul>
 </details>
 
@@ -138,5 +139,33 @@ sudo apt-get install figlet
   [🔼 **Back to top**](#ToDoMasterSH)
   
   </div>
+
+
+<h2 id="guide">📝 Guide</h2>
+
+To run the ToDoMasterSH script, follow these steps:
+
+1. **Clone the Repository**: Clone the ToDoMasterSH repository to your local machine.
+    ```bash
+    git clone https://github.com/NotEmcee/ToDoMasterSH.git
+    cd ToDoMasterSH
+    ```
+
+2. **Ensure Prerequisites are Installed**: Ensure you have `bash` and `figlet` installed. Install `figlet` if it's not already installed as shown [here](#installation):
+
+
+3. **Make the Script Executable**: Make the `todo.sh` script executable.
+    ```bash
+    chmod +x todo.sh
+    ```
+
+4. **Run the Script**: You can now run the script with the commands shown in the [Usage](#Usage) tab:
+
+    
+<div align="right">
+  
+  [🔼 **Back to top**](#ToDoMasterSH)
+  
+</div>
 
 
